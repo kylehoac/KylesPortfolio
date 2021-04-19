@@ -49,12 +49,15 @@ class Hero extends React.Component {
                     <img
                       alt="..."
                       className="img-fluid"
-                      src={reactWhite}
-                      style={{ width: "200px" }}
+                      src='/headshot200x200.jpg'
+                      style={{ width: "100px" }}
+                      className="img-fluid rounded-circle shadow"
                     />
                     <p className="lead text-white">
-                      A beautiful Design System for Bootstrap 4. It's Free and
-                      Open Source.
+                      Kyle Hoac
+                    </p>
+                    <p className="lead text-white">
+                      Software Engineer and Web Developer, coding out of Worcester, MA.
                     </p>
                     <div className="btn-wrapper mt-5">
                       <Button
@@ -86,14 +89,14 @@ class Hero extends React.Component {
                     </div>
                     <div className="mt-5">
                       <small className="text-white font-weight-bold mb-0 mr-2">
-                        *proudly coded by
+                        *proudly coded by Kyle Hoac
                       </small>
-                      <img
+                      {/* <img
                         alt="..."
                         className="ml-1"
                         style={{ height: "28px" }}
                         src={creative}
-                      />
+                      /> */}
                     </div>
                   </Col>
                 </Row>
